@@ -9,7 +9,7 @@ public class Main  {
         File file = new File("serailized.txt");
         Employee e = new Employee("Katy",5, 15000.50);
         Methods m = new Methods();
-       m.serialize(e,file);
+        m.serialize(e,file);
         System.out.println("File 1: " + m.deserealize(file));
 
         File file2 = new File("serializedEmployeeCollection.txt");
