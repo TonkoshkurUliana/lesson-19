@@ -3,7 +3,7 @@ import java.io.Serializable;
 public class Employee implements Serializable {
   private String name;
   private Integer id;
-  private Double salary;
+  private transient Double salary;
 
   public String getName() {
     return name;
